@@ -1,0 +1,149 @@
+
+/* background of page */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: dimgray;
+}
+
+
+/* css for the wrapper in which the body of the game is stored  */
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css for the main body of the simon game */
+.simon-body {
+  position: absolute;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 50%;
+  background-color: black solid;
+}
+
+/* css for the game_button class */
+.game_button {
+  cursor: pointer;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin: 0px;
+  border-radius: 50%;
+  border: 7px black solid ;
+}
+
+/* css for the green button  */
+#green {
+    background-color: rgb(0, 116, 0);
+    top: -70px;
+    left: -70px; 
+}
+
+/* css for the red button */
+#red {
+    background-color: rgb(156, 0, 0);
+    top: -70px;
+    left: 140px;
+}
+
+/* css for the yellow button */
+#yellow {
+    background-color: rgb(172, 172, 0);
+    top: 130px;
+    left: -70px;
+}
+
+/*  css for the blue button  */
+#blue {
+    background-color: rgb(0, 0, 165);
+    border-radius: 50%;
+    top: 130px;
+    left: 140px;
+}
+
+/* css for the black circle */
+#black {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 8px black solid;;
+    position: relative;
+
+}
+
+/* css for the start button */
+#start {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background: linear-gradient(rgb(248, 248, 248),lightgrey,rgb(153, 152, 152));
+    width: 70px;
+    height: 35px;
+    top: 75px;
+    left: 65px;
+    position: absolute;
+    font-family: 'Orbitron';
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron';
+    justify-content: center; 
+}
+
+/* css for the progress counter */
+#progress {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background: linear-gradient(rgb(248, 246, 248),lightgrey,rgb(153, 152, 152));
+    width: 40px;
+    height:35px;
+    left: 145px;
+    top: 75px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron';
+    justify-content: center;
+}
+
+/* css for the highscore counter */
+#highscore {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background: linear-gradient(rgb(248, 246, 248),lightgrey,rgb(153, 152, 152));
+    width: 40px;
+    height: 35px;
+    left: 7%;
+    top: 75px;
+    left: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron';
+    justify-content: center;
+}
+
+/* css for the indicator stat */
+#stat {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 68%;
+    left: 51%;
+    font-family: 'Orbitron';
+    transform: translate(-50%, -50%);
+}
+
