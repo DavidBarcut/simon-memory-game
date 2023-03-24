@@ -1,4 +1,4 @@
-# simon-memeory-game
+# simon-memory-game
 As part of my web development module I was tasked with making a Simon memory game using js, css and html
 the requirements I was given are as follows:
 
